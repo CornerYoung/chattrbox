@@ -12,3 +12,5 @@ var extractFilePath = function(url){
   filePath = path.resolve(__dirname,'app',fileName);
   return filePath;
 };
+
+module.exports = extractFilePath;
