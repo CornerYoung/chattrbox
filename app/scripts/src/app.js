@@ -4,3 +4,4 @@ class ChatApp {
   }
 }
 new ChatApp();
+//export default ChatApp;  //如果只需导出一个值，最好使用 export default
