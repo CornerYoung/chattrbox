@@ -8,6 +8,11 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
+  "browserify": {
+    "transform": [
+      ["babelify",{"presets": ["es2015"],"sourceMap": true}]
+    ]
+  },
   "author": "Corner Young",
   "license": "ISC",
   "devDependencies": {
